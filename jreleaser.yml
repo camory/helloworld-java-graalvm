@@ -8,16 +8,16 @@ project:
   description: HelloWorld in Java
   longDescription: HelloWorld in Java
   links:
-    homepage: https://github.com/jreleaser/helloworld-graalvm
+    homepage: https://github.com/camory/helloworld-graalvm
   authors:
-    - Andres Almiray
+    - Christophe Amory
   license: APACHE-2.0
   inceptionYear: 2023
   stereotype: CLI
   languages:
     java:
       version: 17
-      groupId: org.jreleaser.examples
+      groupId: tech.sabai
       artifactId: helloworld
       mainClass: org.jreleaser.examples.HelloWorld
 
