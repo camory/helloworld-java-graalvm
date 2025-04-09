@@ -10,7 +10,6 @@ env:
 
 jobs:
   precheck:
-    if: github.repository == 'jreleaser/helloworld-java-graalvm' && startsWith(github.event.head_commit.message, 'Releasing version') != true
     runs-on: ubuntu-latest
     outputs:
       VERSION: ${{ steps.vars.outputs.VERSION }}
